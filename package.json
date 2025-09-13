@@ -1,0 +1,26 @@
+{
+  "name": "noface-bootstrap-server",
+  "version": "1.0.0",
+  "description": "Bootstrap server for NoFace P2P network - helps nodes discover each other",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "keywords": [
+    "p2p",
+    "bootstrap",
+    "noface",
+    "nodejs",
+    "express"
+  ],
+  "author": "NoFace Team",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
